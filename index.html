@@ -81,11 +81,27 @@
                     <img src="assets/img/racionais.jpeg" alt="Imagem do cantor de Rap Mano Brown">
                 </div>
             </div>
-        
+
         </section>
 
         <section class="contact">
-            <h2>Contato</h2>
+            <h2 class="underline">Contato</h2>
+
+            <form action="/pagina-processa-dados-do-form" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input readonly="text" id="nome"
+                        value="Por padrão, este elemento será preenchido com este texto " />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" />
+                </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+            </form>
         </section>
     </main>
 </body>
