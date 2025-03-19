@@ -126,7 +126,7 @@ nav ul li a {
   gap: 10px;
 }
 
-.about .buttons .primary {
+.primary {
   background-color: #2c2b2b;
   color: white;
   border: none;
@@ -249,4 +249,69 @@ nav ul li a {
 
 .card-right img {
   border-radius: 0 24px 24px 0;
+}
+
+/* Style forms */
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 24px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input label {
+  margin-bottom: 8px;
+  color: #25282b;
+  font-size: 16px;
+}
+
+.form-input input {
+  background-color: #ffff;
+  border-radius: 8px;
+  border: solid 1px #E8ECF4;
+  padding-left: 8px;
+  line-height: 40px;
+}
+
+.form-input input::placeholder {
+  color: #ccc;
+}
+
+.form-input textarea {
+  background-color: #ffff;
+  border-radius: 8px;
+  border: solid 1px #E8ECF4;
+  line-height: 16px;
+  height: 160px;
+}
+
+.form-input textarea::placeholder {
+  color: #ccc;
+}
+
+.form-contact .button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+footer img {
+  
 }

@@ -87,22 +87,34 @@
         <section class="contact">
             <h2 class="underline">Contato</h2>
 
-            <form action="/pagina-processa-dados-do-form" method="post">
-                <div>
+            <form action="" method="post" class="form-contact">
+                <div class="form-input">
                     <label for="nome">Nome:</label>
-                    <input readonly="text" id="nome"
-                        value="Por padrão, este elemento será preenchido com este texto " />
+                    <input id="nome" placeholder="Ex: Mano Brown" value="" />
                 </div>
-                <div>
+                <div class="form-input">
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" />
+                    <input type="email" id="email" placeholder="Ex: email$gmail.com" />
                 </div>
-                <div>
+                <div class="form-input">
                     <label for="msg">Mensagem:</label>
-                    <textarea id="msg"></textarea>
+                    <textarea id="msg" placeholder="Ex: Fala Mano, tudo bem?"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit" class="primary">Enviar</button>
                 </div>
             </form>
         </section>
+
+        <footer >
+            <div class="icons">
+            <a href=""><img alt="Instagram" src="assets/img/inst.png" width="38" height="38"></a>
+            <a href=""><img alt="LinkedIn" src="assets/img/link.png" width="38" height="38"></a>
+            <a href=""><img alt="Email" src="assets/img/email.png" width="38" height="38"></a>
+            </div>
+        <p>Mano Brown 2025</p>
+        <img src="assets/img/footer.png" alt="Retangulo da pagina" />
+    </footer>
     </main>
 </body>
 <script src="script.js"></script>
