@@ -312,6 +312,10 @@ footer .icons {
   gap: 24px;
 }
 
-footer img {
-  
+footer .inferior {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  height: 344px;
+  left: 0;
 }
